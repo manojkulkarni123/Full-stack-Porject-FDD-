@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation and Redistribution</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Donation and Redistribution</h1>
+    </header>
+    <main>
+        <section id="donation-form">
+            <h2>Donate Food</h2>
+            <form id="food-donation-form">
+                <input type="text" id="foodItem" placeholder="Food Item" required>
+                <input type="number" id="quantity" placeholder="Quantity" required>
+                <input type="text" id="donorName" placeholder="Your Name" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <input type="date" id="expirationDate" required>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+        <section id="available-donations">
+            <h2>Available Donations</h2>
+            <ul id="donations-list"></ul>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
